@@ -1,8 +1,8 @@
-# Welcome to Matematika Diskret
+# Welcome to Materi Matematika Diskret
 
-Perkenalkan nama saya Aisyah
+wleeeeeeee
 
-Berikut Materinya
+ini materinya
 
 ```{tableofcontents}
 ```

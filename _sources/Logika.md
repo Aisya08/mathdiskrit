@@ -1,5 +1,5 @@
 ---
-title: NEGASI adalah penyangkalan pen
+title: Logika Matematika
 
 ---
 
