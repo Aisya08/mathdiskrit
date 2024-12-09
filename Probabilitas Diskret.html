@@ -6,7 +6,9 @@
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Search - My sample book</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>mencatat dan menambah konsep probabilitas diskrit teorema bayes &#8212; My sample book</title>
   
   
   
@@ -58,12 +60,10 @@
     <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'search';</script>
-  <script src="_static/searchtools.js"></script>
-  <script src="_static/language_data.js"></script>
-  <script src="searchindex.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'Probabilitas Diskret';</script>
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="#" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Deret dan Rekursi" href="Deret%20dan%20Rekursi.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   <meta name="docsearch:version" content="" />
@@ -85,7 +85,7 @@
   <dialog id="pst-search-dialog">
     
 <form class="bd-search d-flex align-items-center"
-      action="#"
+      action="search.html"
       method="get">
   <i class="fa-solid fa-magnifying-glass"></i>
   <input type="search"
@@ -114,8 +114,6 @@
     <div class="bd-container__inner bd-page-width">
       
       
-      
-        
       
       <dialog id="pst-primary-sidebar-modal"></dialog>
       <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
@@ -169,7 +167,7 @@
                 </a>
             </li>
         </ul>
-        <ul class="nav bd-sidenav">
+        <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="Himpunan.html">HIMPUNAN</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Logika.html">Logika Matematika</a></li>
 
@@ -209,7 +207,7 @@
 
 
 
-<li class="toctree-l1"><a class="reference internal" href="Probabilitas%20Diskret.html">mencatat dan menambah konsep probabilitas diskrit teorema bayes</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">mencatat dan menambah konsep probabilitas diskrit teorema bayes</a></li>
 
 
 
@@ -285,7 +283,7 @@
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fsearch.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FProbabilitas Diskret.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -297,6 +295,54 @@
   </span>
 <span class="btn__text-container">Open issue</span>
 </a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/Probabilitas Diskret.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
 </li>
       
   </ul>
@@ -330,7 +376,9 @@
 <button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
 </button>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -339,41 +387,103 @@
 </div>
               
               
-  <div class="bd-search-container">
-    <h1>Search</h1>
-    <noscript>
-      <div class="admonition error">
-        <p class="admonition-title">Error</p>
-        <p>Please activate JavaScript to enable the search functionality.</p>
-      </div>
-    </noscript>
-    
-<form class="bd-search d-flex align-items-center"
-      action="#"
-      method="get">
-  <i class="fa-solid fa-magnifying-glass"></i>
-  <input type="search"
-         class="form-control"
-         name="q"
-         placeholder="Search this book..."
-         aria-label="Search this book..."
-         autocomplete="off"
-         autocorrect="off"
-         autocapitalize="off"
-         spellcheck="false"/>
-  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
-</form>
-    <div id="search-results"></div>
-  </div>
-  <script>
-    // Activate the search field on page load
-    let searchInput = document.querySelector("form.bd-search input");
-    if (searchInput) {
-        searchInput.focus();
-        searchInput.select();
-        console.log("[PST]: Set focus on search field.");
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>mencatat dan menambah konsep probabilitas diskrit teorema bayes</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">mencatat dan menambah konsep probabilitas diskrit teorema bayes</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#distribusi-probabilitas-diskrit">Distribusi Probabilitas Diskrit</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#distribusi-binominal">Distribusi Binominal</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#pertimbangan-khusus">Pertimbangan Khusus</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#contoh-numerik-teorema-bayes">Contoh Numerik Teorema Bayes</a></li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="mencatat-dan-menambah-konsep-probabilitas-diskrit-teorema-bayes">
+<h1>mencatat dan menambah konsep probabilitas diskrit teorema bayes<a class="headerlink" href="#mencatat-dan-menambah-konsep-probabilitas-diskrit-teorema-bayes" title="Link to this heading">#</a></h1>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="distribusi-probabilitas-diskrit">
+<h1>Distribusi Probabilitas Diskrit<a class="headerlink" href="#distribusi-probabilitas-diskrit" title="Link to this heading">#</a></h1>
+<p>Distribusi probabilitas diskrit adalah suatu daftar atau distribusi di mana
+variabel randomnya mengasumsikan masing-masing nilainya dengan probabilitas
+tertentu. Variabel diskrit memiliki jumlah nilai kemungkinan yang terbatas atau
+jumlah yang tak terhingga dari nilai-nilai yang dapat dihitung. Kata “dihitung” berarti bahwa variabel random tersebut dapat dicacah dengah menggunakan angka 1, 2, 3 dst.
+Misalnya, jumlah panggilan telepon yang diterima setelah siaran TV mengudara
+adalah contoh variabel diskrit, karena bisa dihitung.</p>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="distribusi-binominal">
+<h1>Distribusi Binominal<a class="headerlink" href="#distribusi-binominal" title="Link to this heading">#</a></h1>
+<p>Distribusi Binomial adalah suatu distribusi probabilitas yang dapat digunakan
+bilamana suatu proses sampling dapat diasumsikan sesuai dengan proses Bernoulli.
+Misalnya, dalam perlemparan sekeping uang logam sebanyak 5 kali, hasil setiap
+ulangan mungkin muncul sisi gambar atau sisi angka. Begitu pula, bila kartu diambil
+berturut-turut, kita dapat memberi label “berhasil” bila kartu yang terambil adalah
+kartu merah atau “gagal” bila yang terambil adalah kartu hitam. Ulangan-ulangan
+tersebut bersifat bebas dan peluang keberhasilan setiap ulangan tetap sama, yaitu sebesar setengah.</p>
+<p>Penerapan Teorema Bayes sangat luas dan tidak terbatas pada bidang keuangan. Misalnya, Teorema Bayes dapat digunakan untuk menentukan keakuratan hasil uji medis dengan mempertimbangkan seberapa besar kemungkinan seseorang mengidap penyakit dan keakuratan umum pengujian tersebut. Teorema Bayes mengandalkan penggabungan distribusi probabilitas sebelumnya untuk menghasilkan probabilitas posterior .</p>
+<p>Dalam inferensi statistik Bayesian, probabilitas sebelumnya adalah probabilitas terjadinya suatu peristiwa sebelum data baru dikumpulkan. Dengan kata lain, probabilitas ini merupakan penilaian rasional terbaik atas probabilitas hasil tertentu berdasarkan pengetahuan terkini sebelum eksperimen dilakukan.</p>
+<p>Probabilitas posterior adalah probabilitas yang direvisi dari suatu peristiwa yang terjadi setelah mempertimbangkan informasi baru. Probabilitas posterior dihitung dengan memperbarui probabilitas sebelumnya menggunakan teorema Bayes. Dalam istilah statistik, probabilitas posterior adalah probabilitas terjadinya peristiwa A, mengingat peristiwa B telah terjadi.</p>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="pertimbangan-khusus">
+<h1>Pertimbangan Khusus<a class="headerlink" href="#pertimbangan-khusus" title="Link to this heading">#</a></h1>
+<p>Teorema Bayes memberikan probabilitas suatu peristiwa berdasarkan informasi baru yang terkait atau mungkin terkait dengan peristiwa tersebut. Rumus tersebut juga dapat digunakan untuk menentukan bagaimana probabilitas terjadinya suatu peristiwa dapat dipengaruhi oleh informasi baru yang bersifat hipotetis, dengan asumsi bahwa informasi baru tersebut akan terbukti benar.</p>
+<p>Misalnya, coba ambil satu kartu dari setumpuk kartu yang berjumlah 52 kartu.</p>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="contoh-numerik-teorema-bayes">
+<h1>Contoh Numerik Teorema Bayes<a class="headerlink" href="#contoh-numerik-teorema-bayes" title="Link to this heading">#</a></h1>
+<p>Sebagai contoh numerik, bayangkan ada tes narkoba yang keakuratannya 98%, artinya 98% waktunya, tes tersebut menunjukkan hasil positif yang sebenarnya bagi seseorang yang menggunakan narkoba, dan 98% waktunya, tes tersebut menunjukkan hasil negatif yang sebenarnya bagi mereka yang bukan pengguna narkoba.</p>
+<p>Selanjutnya, asumsikan 0,5% orang menggunakan obat tersebut. Jika seseorang yang dipilih secara acak dinyatakan positif menggunakan obat tersebut, perhitungan berikut dapat dilakukan untuk menentukan kemungkinan orang tersebut benar-benar menggunakan obat tersebut, dengan ketentuan sebagai berikut:</p>
+<p>A = Probabilitas bahwa hasil tes positif adalah benar
+B = Persentase orang yang menggunakan narkoba
+A x B = probabilitas bahwa hasil tes positif itu benar
+( 1 - A ) x ( 1 - B ) = Peluang hasil tes negatif adalah benar
+Rumusnya akan terlihat seperti ini:</p>
+<p>( A x B ) / [ ( A x B ) + { ( 1 - A ) x ( 1 - B ) } ] = Peluang Mengonsumsi Obat
+Dengan menggunakan nilai-nilai tersebut, perhitungannya adalah sebagai berikut:</p>
+<p>( 0,98 x 0,005 ) / [ ( 0,98 x 0,005 ) + { ( 1 - 0,98 ) x ( 1 - 0,005 ) } ] =
+0,0049 / ( 0,0049 + 0,0199 ) = 19,76%
+Teorema Bayes memperlihatkan bahwa meskipun seseorang dinyatakan positif dalam skenario ini, ada kemungkinan sebesar 19,76% orang tersebut mengonsumsi obat dan kemungkinan sebesar 80,24% tidak mengonsumsinya.</p>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
     }
-  </script>
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
 
               
               
@@ -382,12 +492,42 @@
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="Deret%20dan%20Rekursi.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Deret dan Rekursi</p>
+      </div>
+    </a>
 </div>
                 </footer>
               
             </div>
             
             
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">mencatat dan menambah konsep probabilitas diskrit teorema bayes</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#distribusi-probabilitas-diskrit">Distribusi Probabilitas Diskrit</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#distribusi-binominal">Distribusi Binominal</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#pertimbangan-khusus">Pertimbangan Khusus</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#contoh-numerik-teorema-bayes">Contoh Numerik Teorema Bayes</a></li>
+</ul>
+
+  </nav></div>
+
+</div></div>
               
             
           </div>
